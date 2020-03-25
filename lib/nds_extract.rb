@@ -32,12 +32,13 @@ def directors_totals(nds)
     
     #below variable also assigned for clarity
     
-    director = directors_database[director_counter][:name]
+    #director = directors_database[director_counter][:name]
     while movie_counter < num_of_movies do
       movie_gross = directors_database[director_counter][:movies][movie_counter][:worldwide_gross]
       total_gross += movie_gross
       movie_counter += 1
     end
+    director = directors_database[director_counter][:name]
     director_gross_earnings[director] = total_gross
     director_counter += 1  
   end
