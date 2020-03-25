@@ -20,7 +20,7 @@ def directors_totals(nds)
   #
   #
   # Be sure to return the result at the end!
-  director_gross_earnings = []
+  director_gross_earnings = {}
   director_counter = 0 
   while director_counter < directors_database.length do
     movie_counter = 0
@@ -32,7 +32,7 @@ def directors_totals(nds)
       total_gross += movie_gross
       movie_counter += 1
     end
-    director_gross_earnings << { director => total_gross }
+    director_gross_earnings[director] = total_gross
     director_counter += 1  
   end
   director_gross_earnings
