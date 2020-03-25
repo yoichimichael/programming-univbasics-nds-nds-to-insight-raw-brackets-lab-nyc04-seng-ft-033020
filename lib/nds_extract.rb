@@ -23,7 +23,8 @@ def directors_totals(nds)
   director_gross_earnings = []
   director_counter = 0 
   while director_counter < directors_database.length do
-    movie_counter
+    movie_counter = 0 
+    while movie_counter < directors_database
   end
   director_gross_earnings
 end
