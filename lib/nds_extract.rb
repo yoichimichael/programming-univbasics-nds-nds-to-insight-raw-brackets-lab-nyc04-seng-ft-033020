@@ -20,6 +20,8 @@ def directors_totals(nds)
   #
   #
   # Be sure to return the result at the end!
-  
-  nil
+  director_gross_earnings = []
+  movie_counter = 0 
+  while
+  director_gross_earnings
 end
