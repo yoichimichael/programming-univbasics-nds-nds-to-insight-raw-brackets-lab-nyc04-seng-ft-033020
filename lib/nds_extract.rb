@@ -21,7 +21,7 @@ def directors_totals(nds)
   #
   # Be sure to return the result at the end!
   director_gross_earnings = []
-  movie_counter = 0 
-  while
+  director_counter = 0 
+  while director_counter < 
   director_gross_earnings
 end
