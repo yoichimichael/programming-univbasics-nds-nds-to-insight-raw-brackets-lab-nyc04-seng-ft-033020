@@ -24,8 +24,14 @@ def directors_totals(nds)
   director_counter = 0 
   while director_counter < directors_database.length do
     movie_counter = 0
+    
+    #below might be unecessary variable, assigned for clarity in following while loop
+    
     num_of_movies = directors_database[director_counter][:movies].length
     total_gross = 0
+    
+    #below variable also assigned for clarity
+    
     director = directors_database[director_counter][:name]
     while movie_counter < num_of_movies do
       movie_gross = directors_database[director_counter][:movies][movie_counter][:worldwide_gross]
